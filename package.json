@@ -1,0 +1,17 @@
+{
+  "name": "@soara/vue-modules",
+  "version": "0.0.1",
+  "description": "vue modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Soara",
+  "license": "ISC",
+  "devDependencies": {
+    "@soara/cli": "^0.0.3"
+  },
+  "peerDependencies": {
+    "@soara/cli": "^0.0.3"
+  }
+}
