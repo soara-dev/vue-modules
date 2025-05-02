@@ -1,0 +1,8 @@
+/*
+    Example Routes
+*/
+const __Name__ = () => import("../../pages/__Name__.vue");
+
+const routes = [{ path: "/__name-kebab__", component: __Name__ }];
+
+export default routes;
