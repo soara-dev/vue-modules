@@ -9,9 +9,9 @@
   "author": "Soara",
   "license": "ISC",
   "devDependencies": {
-    "@soara/cli": "^0.0.12"
+    "@soara/cli": "^0.0.13"
   },
   "peerDependencies": {
-    "@soara/cli": "^0.0.12"
+    "@soara/cli": "^0.0.13"
   }
 }
