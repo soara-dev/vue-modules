@@ -1,6 +1,6 @@
 {
   "name": "@soara/vue-modules",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "vue modules",
   "main": "index.js",
   "scripts": {
