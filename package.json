@@ -1,6 +1,7 @@
 {
   "name": "@soara/vue-modules",
   "version": "0.0.6",
+  "type": "module",
   "description": "vue modules",
   "main": "index.js",
   "scripts": {
@@ -9,9 +10,9 @@
   "author": "Soara",
   "license": "ISC",
   "devDependencies": {
-    "@soara/cli": "^0.0.14"
+    "@soara/cli": "0.0.17"
   },
   "peerDependencies": {
-    "@soara/cli": "^0.0.14"
+    "@soara/cli": "^0.0.17"
   }
 }
