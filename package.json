@@ -9,13 +9,13 @@
   },
   "author": "Soara",
   "license": "ISC",
-  "devDependencies": {
-    "@soara/cli": "0.0.17"
-  },
-  "peerDependencies": {
-    "@soara/cli": "^0.0.17"
-  },
   "dependencies": {
     "prettier": "^3.5.3"
+  },
+  "devDependencies": {
+    "@soara/cli": "0.0.18"
+  },
+  "peerDependencies": {
+    "@soara/cli": "^0.0.18"
   }
 }
