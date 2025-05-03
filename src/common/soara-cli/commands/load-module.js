@@ -16,5 +16,5 @@ registerCommand('load:module <name>', 'Load any data from modules [routes]', asy
   const targetPath = path.join(process.cwd(), fileNamePath);
   copyTemplate(templatePath, targetPath, '');
 
-  console.log('Hello load:module');
+  console.log(`Success to load ${name}`);
 });
