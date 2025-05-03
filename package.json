@@ -14,5 +14,8 @@
   },
   "peerDependencies": {
     "@soara/cli": "^0.0.17"
+  },
+  "dependencies": {
+    "prettier": "^3.5.3"
   }
 }
