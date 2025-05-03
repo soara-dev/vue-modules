@@ -1,0 +1,30 @@
+// Config
+const configModules = import.meta.glob('../../modules/**/config/app.js', {
+  eager: true
+});
+
+// Routes
+const globalRoutes = import.meta.glob('../routes/routes.js', { eager: true });
+const routeModules = import.meta.glob('../../modules/**/common/routes/routes.js', {
+  eager: true
+});
+
+const routes = [];
+
+for (const path in globalRoutes) {
+  const module = globalRoutes[path];
+  if (module.default && Array.isArray(module.default)) {
+    routes.push(...module.default);
+  }
+}
+
+for (const config in configModules) {
+  const moduleConfig = configModules[config].default;
+  if (!moduleConfig.enabled) continue;
+
+  const routeFileName = `../../modules/${moduleConfig.name}/common/routes/routes.js`;
+  const routePath = routeModules[routeFileName];
+  if (routePath) routes.push(...(routePath.default ?? []));
+}
+
+export default routes;
